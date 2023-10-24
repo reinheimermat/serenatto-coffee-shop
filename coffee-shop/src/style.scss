@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap');
+
+$marrom-claro: #B29463;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+input[type=checkbox] {
+    border: 2px solid $marrom-claro;
+}
+
+input[type=checkbox]:hover,
+input[type=checkbox]:focus {
+    background-color: $marrom-claro;
+    border-color: $marrom-claro;
+    box-shadow: none;
+    outline: none;
+}
+
+
